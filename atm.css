@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+}
+.atm_machine{
+    display: flex;
+    justify-content: center;
+}
+
+.welcome{
+    margin-top: 1vh;
+    color: white;
+    font-size: 8vh;
+    animation-name: welcome;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.firstbank{
+    color: dodgerblue;
+}
+.welcome1{
+    color: dodgerblue;
+}
+.software{
+    position: absolute;
+    top: 28vh;
+    left: 37vw;
+    width: 23vw;
+    height: 30vh;
+    background-color: white;
+    max-width: 23vw;
+}
+.software_value{
+    font-size: 4vh;
+}
+.user_input{
+    width: 30vw;
+    height: 5vh;
+    position: absolute;
+    top: 69vh;
+    left: 32vw;
+    padding: 1vh;
+    overflow: hidden;
+}
+.go{
+    padding: 1vh;
+    position: absolute;
+    top: 69vh;
+    left: 63.5vw;
+    width: 5vw;
+    height: 7.7vh;
+    background-color: white;
+}
+.next{
+    padding: 1vh;
+    position: absolute;
+    top: 40vh;
+    left: 61vw;
+}
+.wow:hover{
+    transform: scale(1.1);
+}
+.transfer{
+    padding: 1vh;
+    position: absolute;
+    top: 30vh;
+    left: 61vw;
+}
+
+
+
+@keyframes welcome {
+    from{transform: translateX(-60vw);}
+    to{transform: translateX(110vw);}
+}
